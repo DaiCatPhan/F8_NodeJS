@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaiCatPhan/F8_NodeJS.git"
+  },
+  "keywords": [
+    "F8_NodeJS"
+  ],
+  "author": "DaiCat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaiCatPhan/F8_NodeJS/issues"
+  },
+  "homepage": "https://github.com/DaiCatPhan/F8_NodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
